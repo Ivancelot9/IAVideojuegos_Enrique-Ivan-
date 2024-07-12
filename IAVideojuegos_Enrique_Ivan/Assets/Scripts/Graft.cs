@@ -82,7 +82,7 @@ public class Graft : MonoBehaviour
 
         Node origin = H;
         Node target = D;
-
+  
         // Ejecutar BFS e imprimir el camino si existe
         bool pathFoundBFS = BreadthFirstSearch(origin, target);
 
